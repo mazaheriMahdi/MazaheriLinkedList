@@ -20,14 +20,14 @@ jobs:
 
     - name: Get the current version
       id: get_version
-      run: echo ::set-output name=version::$(awk -F'[><]' '/<Version>/{print $3}' YourProject.csproj)
+      run: echo ::set-output name=version::$(awk -F'[><]' '/<Version>/{print $3}' MazaheriLinkedList/MazaheriLinkedList.csproj)
 
     - name: Calculate the next version
       id: calculate_next_version
       run: echo ::set-output name=next_version::$(($(echo ${{ steps.get_version.outputs.version }} | sed 's/\./ /g' | awk '{print $3}') + 1))
 
     - name: Update project version
-      run: sed -i 's/<Version>.*<\/Version>/<Version>${{ steps.calculate_next_version.outputs.next_version }}<\/Version>/' MazaheriLinkedList.csproj
+      run: sed -i 's/<Version>.*<\/Version>/<Version>${{ steps.calculate_next_version.outputs.next_version }}<\/Version>/' MazaheriLinkedList/MazaheriLinkedList.csproj
 
     - name: Restore NuGet packages
       run: dotnet restore
