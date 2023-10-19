@@ -18,10 +18,11 @@ jobs:
       with:
         dotnet-version: 7.x
 
+    - name: Chmod script 
+      run: chmod +x ./versionNumberUtil.sh
+      
     - name: Update version number
-      run: |
-        chmod +x ./versionNumberUtil.sh
-        ./versionNumberUtil.sh
+      run: ./versionNumberUtil.sh
 
     - name: Commit proj file
       - uses: EndBug/add-and-commit@v9
