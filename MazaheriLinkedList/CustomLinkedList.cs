@@ -107,7 +107,11 @@ public class CustomLinkedList<T> : IList<T>
         }
     }
 
-    public int Count => count;
+    public int Count
+    {
+        set => count = value;
+        get => count;
+    }
 
     public bool IsReadOnly => false;
 
