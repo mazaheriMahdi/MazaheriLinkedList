@@ -18,6 +18,17 @@ jobs:
       with:
         dotnet-version: 7.x
 
+    - name: Get the current version
+      id: get_version
+      run: echo ::set-output name=version::$(awk -F'[><]' '/<Version>/{print $3}' YourProject.csproj)
+
+    - name: Calculate the next version
+      id: calculate_next_version
+      run: echo ::set-output name=next_version::$(($(echo ${{ steps.get_version.outputs.version }} | sed 's/\./ /g' | awk '{print $3}') + 1))
+
+    - name: Update project version
+      run: sed -i 's/<Version>.*<\/Version>/<Version>${{ steps.calculate_next_version.outputs.next_version }}<\/Version>/' MazaheriLinkedList.csproj
+
     - name: Restore NuGet packages
       run: dotnet restore
 
@@ -25,5 +36,6 @@ jobs:
       run: dotnet pack --configuration Release --output ./artifacts
 
     - name: Publish to NuGet.org
-      run: dotnet nuget push ./artifacts/*.nupkg --source "https://api.nuget.org/v3/index.json" --api-key ${{secrets.NUGET_API_KEY}}
-
+      run: dotnet nuget push ./artifacts/*.nupkg --source "https://api.nuget.org/v3/index.json"
+      env:
+        NUGET_API_KEY: ${{secrets.NUGET_API_KEY}}
