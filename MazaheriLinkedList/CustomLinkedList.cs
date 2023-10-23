@@ -340,7 +340,7 @@ public class CustomLinkedList<T> : IList<T>
 
         for (int index = 0; index < Count; index++)
         {
-            if (givenObjectFirst != baseClassFirst)
+            if (!givenObjectFirst.Value.Equals(baseClassFirst.Value))
             {
                 return false;
             }
@@ -357,6 +357,11 @@ public class CustomLinkedList<T> : IList<T>
         if (range.count > count || range.count == 0)
         {
             return false;
+        }
+
+        if (range.Equals(this))
+        {
+            return true;
         }
 
         var current = First;
