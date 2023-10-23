@@ -297,6 +297,23 @@ public class CustomLinkedList<T> : IList<T>
         count--;
     }
 
+    public void AddAfter(Node<T> targetNode, Node<T> nodeToAdd)
+    {
+        if (targetNode == Last)
+        {
+            targetNode.Next = nodeToAdd;
+            Last = nodeToAdd;
+        }
+        else
+        {
+            var temp = targetNode.Next;
+            targetNode.Next = nodeToAdd;
+            nodeToAdd.Next = temp;
+        }
+
+        count++;
+    }
+    
     IEnumerator IEnumerable.GetEnumerator()
     {
         return GetEnumerator();
