@@ -351,4 +351,51 @@ public class CustomLinkedList<T> : IList<T>
 
         return true;
     }
+
+    public bool RangeContains(CustomLinkedList<T> range)
+    {
+        if (range.count > count || range.count == 0)
+        {
+            return false;
+        }
+
+        var current = First;
+        var givenRangeCurrentNode = range.First;
+
+        var isRangeFirstElementDetected = false;
+
+        var foundedElements = 0;
+        while (current != Last.Next)
+        {
+            if (foundedElements == range.count)
+            {
+                return true;
+            }
+
+            var currentAndRangeEquality = current.Value.Equals(givenRangeCurrentNode.Value);
+            if (currentAndRangeEquality && !isRangeFirstElementDetected)
+            {
+                givenRangeCurrentNode = givenRangeCurrentNode.Next;
+                isRangeFirstElementDetected = true;
+                foundedElements++;
+            }
+            else if (currentAndRangeEquality && isRangeFirstElementDetected)
+            {
+                givenRangeCurrentNode = givenRangeCurrentNode.Next;
+                foundedElements++;
+            }
+            else if (!currentAndRangeEquality && isRangeFirstElementDetected)
+            {
+                isRangeFirstElementDetected = false;
+                foundedElements = 0;
+                givenRangeCurrentNode = range.First;
+                continue;
+            }
+
+            current = current.Next;
+        }
+
+
+        return false;
+    }
 }

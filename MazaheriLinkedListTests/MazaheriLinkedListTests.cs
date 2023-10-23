@@ -5,37 +5,115 @@ namespace MazaheriLinkedListTests;
 
 public class MazaheriLinkedListTests
 {
-    private readonly ILinkedListSorter<int> _sut;
-
-    public MazaheriLinkedListTests()
+    [Fact]
+    public void ContainsRange_ShouldReturnFalse_WhenLenghtOfGivenListIsMoreThanBaseList()
     {
-        _sut = new LinkedListSorter<int>();
+        // Arrange
+        var mainList = new CustomLinkedList<int>();
+        mainList.Add(20);
+        mainList.Add(30);
+        mainList.Add(4);
+        mainList.Add(2);
+        mainList.Add(1);
+        mainList.Add(3);
+        mainList.Add(50);
+
+        var targetRange = new CustomLinkedList<int>();
+        targetRange.Add(4);
+        targetRange.Add(4);
+        targetRange.Add(4);
+        targetRange.Add(4);
+        targetRange.Add(4);
+        targetRange.Add(2);
+        targetRange.Add(1);
+        targetRange.Add(3);
+
+        // Act
+        var result = mainList.RangeContains(targetRange);
+
+        // Assert
+        result.Should().BeFalse();
     }
 
     [Fact]
-    public void Sort_ShouldSortTheArray_WhenEver()
+    public void ContainsRange_ShouldReturnTrue_WhenGivenRangeIsFound()
     {
-        // Arrange 
-        var linkedList = new CustomLinkedList<int>();
-        linkedList.Add(1);
-        linkedList.Add(3);
-        linkedList.Add(2);
-        linkedList.Add(20);
-        linkedList.Add(4);
-        linkedList.Add(15);
+        // Arrange
+        var mainList = new CustomLinkedList<int>();
+        mainList.Add(22);
+        mainList.Add(3);
+        mainList.Add(6);
+        mainList.Add(10);
+        mainList.Add(1);
+        mainList.Add(2);
+        mainList.Add(1);
+        mainList.Add(3);
+        mainList.Add(6);
+        mainList.Add(10);
+        mainList.Add(1);
+        mainList.Add(2);
+        mainList.Add(99);
 
-        var expected = new CustomLinkedList<int>();
-        expected.Add(1);
-        expected.Add(2);
-        expected.Add(3);
-        expected.Add(4);
-        expected.Add(15);
-        expected.Add(20);
+        var targetRange = new CustomLinkedList<int>();
+        targetRange.Add(1);
+        targetRange.Add(3);
+        targetRange.Add(6);
+        targetRange.Add(10);
+        targetRange.Add(1);
+        targetRange.Add(2);
 
         // Act
-        _sut.Sort(linkedList);
+        var result = mainList.RangeContains(targetRange);
 
         // Assert
-        linkedList.Should().BeEquivalentTo(expected);
+        result.Should().BeTrue();
+    }
+
+    [Fact]
+    public void ContainsRange_ShouldReturnFalse_WhenNoMatchingRangeFound()
+    {
+        // Arrange
+        var mainList = new CustomLinkedList<int>();
+        mainList.Add(20);
+        mainList.Add(30);
+        mainList.Add(4);
+        mainList.Add(2);
+        mainList.Add(1);
+        mainList.Add(3);
+        mainList.Add(50);
+
+        var targetRange = new CustomLinkedList<int>();
+        targetRange.Add(4);
+        targetRange.Add(4);
+        targetRange.Add(1);
+        targetRange.Add(3);
+
+        // Act
+        var result = mainList.RangeContains(targetRange);
+
+        // Assert
+        result.Should().BeFalse();
+    }
+
+    [Fact]
+    public void ContainsRange_ShouldReturnFalse_WhenRagetListIsNull()
+    {
+        // Arrange
+        var mainList = new CustomLinkedList<int>();
+        mainList.Add(20);
+        mainList.Add(30);
+        mainList.Add(4);
+        mainList.Add(2);
+        mainList.Add(1);
+        mainList.Add(3);
+        mainList.Add(50);
+
+        var targetRange = new CustomLinkedList<int>();
+
+        // Act
+        var result = mainList.RangeContains(targetRange);
+
+        // Assert
+        result.Should().BeFalse();
     }
 }
