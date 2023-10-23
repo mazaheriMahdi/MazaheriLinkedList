@@ -313,7 +313,14 @@ public class CustomLinkedList<T> : IList<T>
 
         count++;
     }
-    
+
+    public void AddFirst(Node<T> node)
+    {
+        var temp = First;
+        First = node;
+        First.Next = temp;
+    }
+
     IEnumerator IEnumerable.GetEnumerator()
     {
         return GetEnumerator();
