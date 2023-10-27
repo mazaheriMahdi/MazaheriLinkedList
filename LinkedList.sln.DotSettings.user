@@ -1,6 +1,92 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=66220d4a_002D49e8_002D4544_002D9f31_002Dff53813b6fdd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Sort_ShouldSortTheArray_WhenEver" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=24a8126d_002D80dd_002D449b_002Dbdbd_002D28275a5093b7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MazaheriLinkedListTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=26078c86_002Db536_002D4670_002D8be4_002D99793649c264/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MazaheriLinkedListTests #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4832dd76_002De232_002D4d25_002Da8ca_002D5eb2f6bd259f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MazaheriLinkedListTests #10" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=54cc9831_002De923_002D4815_002D9952_002Db73c0e89e0ab/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MazaheriLinkedListTests #8" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=64f3aa25_002D23cb_002D4be7_002Dbce3_002Db187458badf5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MazaheriLinkedListTests #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=66220d4a_002D49e8_002D4544_002D9f31_002Dff53813b6fdd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Sort_ShouldSortTheArray_WhenEver" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8064088f_002D9a7c_002D473e_002D881c_002D75aa2e02ba09/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MazaheriLinkedListTests #11" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8d2db3b6_002D54e0_002D4704_002Dadad_002De6782d23b7cc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MazaheriLinkedListTests #13" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=95d8c3f5_002D7bfb_002D46fc_002D93a6_002Dc984a4cedd5e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="MazaheriLinkedListTests #14" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=977ace6b_002Db1f5_002D4a4f_002Dbfcf_002D625c04f43aaf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MazaheriLinkedListTests #7" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListSorterTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ab8c9e84_002Df6c0_002D462d_002Db69e_002D3450a01c7c77/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MazaheriLinkedListTests #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d2390b27_002D25fe_002D4df2_002D913e_002D387a4bc5fb1e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MazaheriLinkedListTests #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d2506c4c_002Dc4f0_002D47c0_002Db974_002Da03515f238f7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MazaheriLinkedListTests #12" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d93a9e57_002D79a3_002D4ae5_002D9afd_002D6b32f6b70d74/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MazaheriLinkedListTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fe98e222_002D2b5c_002D4a5a_002D94fb_002Db44403c6036f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MazaheriLinkedListTests #9" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::2B580237-4477-441E-84E3-E1B4A643030E::net7.0::MazaheriLinkedListTests.MazaheriLinkedListIntegrationTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
