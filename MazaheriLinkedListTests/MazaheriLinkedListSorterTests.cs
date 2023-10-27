@@ -5,14 +5,6 @@ namespace MazaheriLinkedListTests;
 
 public class MazaheriLinkedListSorterTests
 {
-    private readonly ILinkedListSorter<int> _sut;
-
-    public MazaheriLinkedListSorterTests()
-    {
-        _sut = new LinkedListSorter<int>();
-    }
-
-
     
     [Fact]
     public void Sort_ShouldSortTheArray_WhenEver()
@@ -35,7 +27,7 @@ public class MazaheriLinkedListSorterTests
         expected.Add(20);
 
         // Act
-        _sut.Sort(linkedList);
+        linkedList.MergeSort();
 
         // Assert
         linkedList.Should().BeEquivalentTo(expected);
